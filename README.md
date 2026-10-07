@@ -1,4 +1,4 @@
-# TIS — Tula's International School Redesign
+# TIS - Tula's International School Redesign
 
 [![Build Status](https://img.shields.io/badge/Build-Passing-emerald)](https://tis.edu.in)
 [![React](https://img.shields.io/badge/React-19-blue)](https://react.dev)
@@ -27,13 +27,13 @@ Built around the authentic **"Modern Gurukul"** philosophy (*Mind, Body & Soul*)
 
 ## 🛠️ Interactive Features & Custom Hooks
 
-- **Feature 1 — Custom Desktop Cursor (`CustomCursor.jsx`)**: 
+- **Feature 1 : Custom Desktop Cursor (`CustomCursor.jsx`)**: 
   Smooth outer ring + trailing dot system that expands over interactive buttons, links, and photography. Automatically disabled on touch screens, mobile devices, and reduced-motion settings.
-- **Feature 2 — Scroll-Triggered Reveal Components (`Reveal.jsx`)**:
+- **Feature 2 : Scroll-Triggered Reveal Components (`Reveal.jsx`)**:
   Reusable `<Reveal>` and `<StaggerContainer>` components powered by Framer Motion's `whileInView` with `once: true` viewport detection.
-- **Feature 3 — Scroll Progress Indicator (`ScrollProgress.jsx`)**:
+- **Feature 3 : Scroll Progress Indicator (`ScrollProgress.jsx`)**:
   Thin top progress bar using Framer Motion `useScroll` and `useSpring` hooks for high-performance 60 FPS feedback.
-- **Feature 4 — Theme Switcher (`ThemeToggle.jsx` & `useTheme.js`)**:
+- **Feature 4 : Theme Switcher (`ThemeToggle.jsx` & `useTheme.js`)**:
   Dark/Light mode persistence with `localStorage`, system preference auto-detection, and smooth color transitions without theme flashing.
 
 ---
@@ -94,23 +94,22 @@ tulas-international-school/
 
 ## ⚡ Installation & Local Development
 
-### 1. Clone or Navigate to Project
-```bash
-cd C:\Users\Rahul\.gemini\antigravity\scratch\tulas-international-school
-```
+Follow these steps to run the site locally:
 
-### 2. Install Dependencies
-```bash
-npm install
-```
+1. Install **Node.js 20.19+** (or **22.12+**) and npm.
+2. Open this project folder in VS Code, then open a terminal with **Terminal → New Terminal**.
+3. Install the project dependencies:
+  ```bash
+  npm install
+  ```
+4. Start the Vite development server:
+  ```bash
+  npm run dev
+  ```
+5. Open the local URL printed in the terminal, usually `http://localhost:5173`.
+6. To stop the server, focus the terminal and press **Ctrl+C**.
 
-### 3. Start Development Server
-```bash
-npm run dev
-```
-Open your browser at `http://localhost:5173`.
-
-### 4. Build for Production
+To verify a production build, run:
 ```bash
 npm run build
 ```
